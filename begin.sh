@@ -1,5 +1,5 @@
 PS3='Please select a disk type: '
-options=("SDA" "NVME" "Quit")
+options=("SDA" "SDA No Swap" "NVME" "NVME No Swap" "Quit")
 select opt in "${options[@]}"
 do
 	case $opt in
